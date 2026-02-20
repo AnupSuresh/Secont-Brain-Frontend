@@ -13,8 +13,8 @@ const ProtectedRoute = ({ children }: ProtectedRouteProps) => {
 
    if (isLoading) {
       return (
-         <div className="flex items-center justify-center min-h-dvh bg-linear-to-br from-gray-50 via-white to-gray-50 dark:from-zinc-950 dark:via-black dark:to-zinc-950">
-            <div className="text-center space-y-4">
+         <div className="w-full flex items-center justify-center min-h-dvh bg-linear-to-br from-gray-50 via-white to-gray-50 dark:from-zinc-950 dark:via-black dark:to-zinc-950">
+            <div className="text-center flex justify-center items-center gap-3">
                <Spinner />
                <p className="text-sm text-gray-600 dark:text-gray-400 animate-pulse">
                   Verifying authentication...

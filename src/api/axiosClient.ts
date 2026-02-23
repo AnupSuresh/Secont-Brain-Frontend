@@ -9,7 +9,7 @@ import axios, {
 const baseURL =
    window.location.hostname === "localhost"
       ? "http://localhost:3000/api/v1"
-      : "https://coursera-app.vercel.app/api/v1";
+      : "https://second-brain-dusky-two.vercel.app/api/v1";
 
 // Axios instance
 const api: AxiosInstance = axios.create({

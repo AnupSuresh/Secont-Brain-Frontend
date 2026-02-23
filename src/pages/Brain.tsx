@@ -150,7 +150,7 @@ const Brain = () => {
             {/* Loading */}
             {isLoading ? (
                <div className="flex items-center justify-center min-h-96">
-                  <div className="text-center space-y-4">
+                  <div className="text-center flex justify-center items-center gap-3">
                      <Spinner />
                      <p className="text-sm text-gray-500 dark:text-gray-400">
                         Loading your content...
